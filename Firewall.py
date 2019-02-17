@@ -12,6 +12,9 @@ class firewall:
         for row in self._a:
             t = row[0].split()
             for i in range(4):
+                y = t[i].split('-')
+                if (len(y) > 1):
+                    if ()
                 if (str(pt[i])==str(t[i])):
                     count = True
                 else:
